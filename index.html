@@ -3,9 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>SKETCHSHARE</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+    <div class="controls">
+        <label for="colorPicker"></label>
+        <input type="color" id="colorPicker" value="#000000">
+        <label for="penSize"></label>
+        <input type="range" id="penSize" min="1" max="10" >
+        <button id="clearButton">Clear</button>
+    </div>
+    <canvas id="whiteboard" width="900" height="600"></canvas>
+    <script src="app.js"></script>
 </body>
 </html>

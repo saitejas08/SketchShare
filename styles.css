@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+canvas {
+    border: 1px solid #000;
+    
+    margin-top: 2rem;
+    background-color: #fff;
+    cursor: crosshair;
+}
+
+.controls {
+    position:absolute;
+    margin-top: auto;
+    top: 20px;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.controls input[type="color"],
+.controls input[type="range"] {
+    margin: 5px 0;
+}
